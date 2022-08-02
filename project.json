@@ -1,11 +1,11 @@
 {
   "name": "FUTBIN Best 11",
-  "description": "Blank Process",
+  "description": "This program will make the best football team for a league selected by the user",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
     "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
@@ -42,9 +42,45 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
+        "testCaseId": "f49224c5-f161-4368-96d4-0f779131ca9b",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseExtractPlayerStats.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7c8c0dc3-589b-4eb5-b3e0-8a86cc6ac035",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseFilterPlayer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "670ebdfb-f38f-4e69-ba56-0ea3be6247e0",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseGetUserInput.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9f781cf3-4264-439c-8e12-0be35db17d60",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseNavigateToPlayerPage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
         "testCaseId": "ec488450-803a-4d5c-8da9-c7d154a8abaf",
         "testCaseType": "TestCase",
-        "fileName": "Tests\\TestCase_Open_Application.xaml"
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseOpenApplication.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0eecd04f-1862-4988-a410-3f636be60848",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseSearchSquadPlayer.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "eb795b29-32d3-4a51-87cc-e216406cc692",
+        "testCaseType": "TestCase",
+        "fileName": "ApplicationLayer\\Futbin_Tests\\Futbin_TestCaseSelectLeague.xaml"
       }
     ],
     "modernBehavior": false
